@@ -168,7 +168,7 @@
             </div>
           </div>
 
-          <!-- Accordion Item 3 -->
+          <!-- Accordion Item 3 
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
@@ -183,7 +183,7 @@
               <div class="accordion-body">
                 Yes, Selvy Tex offers full support in design and development. We provide personalized service and attention to detail, helping clients bring their unique visions to life. Our capabilities include prototyping, sampling, and a range of advanced printing and treatment techniques, ensuring that each order meets the client’s specific design requirements.              </div>
             </div>
-          </div>
+          </div>-->
         </div>
         <!--Logistics-->
         <div class="accordion" :class="{ closed: selectedSection !== 'logistics' }" id="accordionLogistics">

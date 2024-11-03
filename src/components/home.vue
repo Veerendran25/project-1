@@ -3,7 +3,7 @@
         <header>
             <nav class="navbar">
                 <div class="logo">
-                    <a href="#"><img src="../assets/Group 247.png" alt="SELVY TEX Logo"></a>
+                    <a href="#"><router-link to="/"><img src="../assets/Group 247.png" alt="SELVY TEX Logo"></router-link></a>
                 </div>
                 <ul class="nav-links">
                     <li class="fonts"><router-link to="/">Home</router-link></li>
@@ -151,8 +151,10 @@
         <footer>
             <div class="footer">
             <div class="footer-column">
+                <router-link to="/">
                 <img src="https://cdn.builder.io/api/v1/image/assets%2Faf0c4f4a34884a7c857808257a84dbe0%2Fa5682d076d5c4a38903293c828d70d7f"
                     class="footer-logo" />
+                    </router-link>
             </div>
             <div class="footer-column">
                 <div class="footer-title">Contact</div>
@@ -176,6 +178,7 @@
                 <a class="footer-link"><router-link to="company">Our Company</router-link></a>
                 <a class="footer-link"><router-link to="services">Our Services</router-link></a>
                 <a class="footer-link"><router-link to="product">Our Product</router-link></a>
+                <a class="footer-link"><router-link to="contact">How to order</router-link></a>
                 <a class="footer-link"><router-link to="contact">Contact</router-link></a>
             </div>
             <div class="footer-column">
@@ -1290,35 +1293,7 @@ a
         transform: translateX(0px);
     }
 }
-@keyframes appearFromTop {
-    from {
-        opacity: 0;
-        transform: translateY(-500px); /* Adjust drop distance */
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
-.stats-grid  {
-    opacity: 0; /* Ensures elements are hidden initially */
-    animation: appearFromTop 1s ease-out forwards;
-}
-
-/* Stagger the animation delay for each card */
-.stats-grid :nth-child(1) {
-    animation-delay: 0.4s;
-}
-.stats-grid :nth-child(2) {
-    animation-delay: 0.6s;
-}
-.stats-grid :nth-child(3) {
-    animation-delay: 0.8s;
-}
-.stats-grid :nth-child(4) {
-    animation-delay: 1s;
-}
 .block-left
 {
     animation :appearSideLeft linear;

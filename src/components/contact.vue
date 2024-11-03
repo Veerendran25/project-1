@@ -3,7 +3,7 @@
     <header>
       <nav class="navbar">
         <div class="logo">
-          <a href="#"><img src="../assets/Group 247.png" alt="SELVY TEX Logo"></a>
+          <a href="#"><router-link to="/"><img src="../assets/Group 247.png" alt="SELVY TEX Logo"></router-link></a>
         </div>
         <ul class="nav-links">
           <li class="fonts"><router-link to="/">Home</router-link></li>

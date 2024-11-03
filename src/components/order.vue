@@ -180,9 +180,9 @@
 {
   margin-bottom: 50px;
   font-family: 'Outfit',sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 50px;
-  letter-spacing: 1.5px;
+  font-weight: 400;
   line-height: 32px;
 }
 
@@ -228,6 +228,7 @@
 .info {
   margin-top: 30%;
   font-size: 16px;
+  margin-left: 1%;
   line-height: 1.5;
 }
 
